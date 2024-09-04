@@ -230,12 +230,12 @@ form button:hover {
 }
 
 #image-gallery {
-    padding: 40px 20px;
+    padding: 5px 5px;
 }
 
 #image-gallery h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 1.5em;
 }
 
@@ -243,24 +243,217 @@ form button:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 100px;
+}
+
+.gallery-grid h4 {
+    margin-top: -5px;
+    text-align: center;
+
+}
+
+.gallery-grid h5 {
+    margin-top: -25px;
+    text-align: center;
+    
+}
+.gallery-grid p {
+    margin-top: -25px;
+    text-align: center;
+        
 }
 
 .gallery-item {
     flex: 1;
-    max-width: 300px;
+    max-width: 500px;
     text-align: center;
 }
 
 .gallery-item img {
-    width: 60%;
+    width: 80%;
     height: auto;
     border: 2px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-bottom: 0px;
 }
 
 .gallery-item p {
     font-size: 0.9em;
     color: #333;
 }
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Events Section Styling */
+#events {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+#events .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#events h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366; /* Example color */
+}
+
+/* Grid Layout for Events */
+.events-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.03); /* Slight zoom effect on hover */
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.event-details {
+    padding: 15px;
+}
+
+.event-details h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #003366; /* Example color */
+}
+
+.event-date {
+    font-size: 1em;
+    color: #666;
+    margin: 0 0 10px;
+}
+
+.event-description {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.event-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366; /* Button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.event-link:hover {
+    background-color: #002244; /* Darker shade on hover */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Projects Section Styling */
+#projects {
+    padding: 40px 20px;
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+#projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#projects h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366; /* Example color */
+}
+
+/* Grid Layout for Projects */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.03); /* Slight zoom effect on hover */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-details h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #003366; /* Example color */
+}
+
+.project-description {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366; /* Button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background-color: #002244; /* Darker shade on hover */
+}
+
+

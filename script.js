@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Example: Add any additional interactive features here
 });
+
