@@ -63,7 +63,7 @@ section h2 {
 footer {
     background-color: #003366;
     color: white;
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -178,7 +178,7 @@ footer .social-media a:hover {
 }
 
 .gallery-grid img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border: 2px solid #ddd;
     border-radius: 8px;
@@ -1200,4 +1200,6 @@ body {
     margin: 0;
     padding: 0 20px;
 }
+
+
 
